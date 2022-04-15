@@ -1,0 +1,4 @@
+#Tue Apr 12 15:08:52 CEST 2022
+base.0=/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

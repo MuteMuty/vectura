@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="si.kamino.vectura"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:36:5-45:15
+12        <intent>
+12-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:37:9-40:18
+13            <action android:name="android.intent.action.DIAL" />
+13-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:38:13-65
+13-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:38:21-62
+14
+15            <data android:scheme="tel" />
+15-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:39:13-42
+15-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:39:19-39
+16        </intent>
+17        <intent>
+17-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:41:9-44:18
+18            <action android:name="android.intent.action.SEND" />
+18-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:42:13-65
+18-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:42:21-62
+19
+20            <data android:mimeType="*/*" />
+20-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:39:13-42
+20-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:43:19-41
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[:connectivity_plus] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/connectivity_plus/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+24-->[:connectivity_plus] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/connectivity_plus/intermediates/library_manifest/release/AndroidManifest.xml:7:22-76
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:22-64
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+30
+31    <application
+32        android:name="android.app.Application"
+32-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:5:9-42
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.6.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:6:9-43
+35        android:label="vectura" >
+35-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:4:9-32
+36        <activity
+36-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:7:9-27:20
+37            android:name="si.kamino.vectura.MainActivity"
+37-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:8:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:12:13-163
+39            android:exported="true"
+39-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:9:13-36
+40            android:hardwareAccelerated="true"
+40-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:13:13-47
+41            android:launchMode="singleTop"
+41-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:10:13-43
+42            android:theme="@style/LaunchTheme"
+42-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:11:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:14:13-55
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+51-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:19:13-22:17
+52                android:name="io.flutter.embedding.android.NormalTheme"
+52-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:20:15-70
+53                android:resource="@style/NormalTheme" />
+53-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:21:15-52
+54
+55            <intent-filter>
+55-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:23:13-26:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:24:17-68
+56-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:24:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:25:17-76
+58-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:25:27-74
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+65-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:30:9-32:33
+66            android:name="flutterEmbedding"
+66-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:31:13-44
+67            android:value="2" />
+67-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:32:13-30
+68        <meta-data
+68-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:33:9-34:70
+69            android:name="com.google.android.geo.API_KEY"
+69-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:33:20-65
+70            android:value="AIzaSyBmD241322rOaWYOgaPr-xcqVFnIlHOZWA" />
+70-->/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/android/app/src/main/AndroidManifest.xml:34:13-68
+71
+72        <provider
+72-->[:image_picker_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+73            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+73-->[:image_picker_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+74            android:authorities="si.kamino.vectura.flutter.image_provider"
+74-->[:image_picker_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+75            android:exported="false"
+75-->[:image_picker_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+76            android:grantUriPermissions="true" >
+76-->[:image_picker_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+77            <meta-data
+77-->[:image_picker_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->[:image_picker_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+79                android:resource="@xml/flutter_image_picker_file_paths" />
+79-->[:image_picker_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+80        </provider>
+81
+82        <activity
+82-->[:url_launcher_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+83            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+83-->[:url_launcher_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+84            android:exported="false"
+84-->[:url_launcher_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+85            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+85-->[:url_launcher_android] /Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+86
+87        <uses-library
+87-->[androidx.window:window:1.0.0-beta04] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+88            android:name="androidx.window.extensions"
+88-->[androidx.window:window:1.0.0-beta04] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0-beta04] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+90        <uses-library
+90-->[androidx.window:window:1.0.0-beta04] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+91            android:name="androidx.window.sidecar"
+91-->[androidx.window:window:1.0.0-beta04] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+92            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+92-->[androidx.window:window:1.0.0-beta04] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+93        <uses-library
+93-->[com.google.android.gms:play-services-maps:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+94            android:name="org.apache.http.legacy"
+94-->[com.google.android.gms:play-services-maps:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+95            android:required="false" />
+95-->[com.google.android.gms:play-services-maps:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+96
+97        <activity
+97-->[com.google.android.gms:play-services-base:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:17.0.0] /Users/erikpahor/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+105    </application>
+106
+107</manifest>

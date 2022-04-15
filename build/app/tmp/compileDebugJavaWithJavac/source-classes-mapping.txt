@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+si/kamino/vectura/BuildConfig.java
+ si.kamino.vectura.BuildConfig

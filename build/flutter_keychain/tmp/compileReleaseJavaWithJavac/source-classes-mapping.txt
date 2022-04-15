@@ -1,0 +1,2 @@
+be/appmire/flutterkeychain/BuildConfig.java
+ be.appmire.flutterkeychain.BuildConfig

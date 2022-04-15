@@ -1,0 +1,4 @@
+#Thu Apr 14 11:50:23 CEST 2022
+base.0=/Users/erikpahor/Desktop/flutter_apps/vectura_flutter/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
